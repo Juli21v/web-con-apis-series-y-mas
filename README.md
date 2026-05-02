@@ -11,10 +11,16 @@ Sitio web estático que integra **varias APIs públicas** (personajes, álbumes,
 - Organización por páginas (`index.html`, `album.html`, …)
 - Separación básica: HTML, `assets/css`, `assets/js`
 
+## Qué incluye
+
+- **Personajes / listas** vía API pública (página principal).
+- Otras vistas: **álbum**, **Rick and Morty**, **Pokémon**, etc. (ver `album.html` y scripts en `assets/js/`).
+- Sin React ni bundler: ideal para mostrar **dominio de fetch + JSON + DOM**.
+
 ## Estructura del repositorio
 
 ```
-Api-reto/
+web-con-apis-series-y-mas/
 ├── index.html
 ├── album.html
 ├── assets/
